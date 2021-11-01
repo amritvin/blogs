@@ -1,15 +1,26 @@
 ---
 layout: post
-title:  "Greetings to all!"
-date:   2021-09-13 13:11:40 -0400
+title:  "Windows Persistence Techniques"
+date:   2021-011-01 13:11:40 -0400
 categories: jekyll update
 ---
-My First Post 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Folder and Register Keys
+Logon Scripts
+Screensaver
+DLL Proxying
+Component object model
+Elevated Schedule Task
+Multi-action Task
+WMI Event Subscription
+App cert DLLS
+App init DLLS
+Netsh Helper DLLS
+Time Provider Persistence
+Port Monitors
+lsa-as-a-persistence
+Metasploit Persistence
+Tortoise SVN: Creates Tortoise SVN hook script 
+Run/RunOnce Keys
+
+
 
