@@ -1,9 +1,9 @@
-- - - 
+--- 
 layout: post
-title:  "Persistence Techniques"
-date:   2021- 011- 01 13:11:40 - 0400
+title: "Persistence Techniques"
+date: 2021-011-01 13:11:40 -0400
 categories: Malaware Persistence Techniques 
-- - - 
+--- 
 Run Registry Key
 - Done by adding an entry to the run registry keys.
 - Executable is added to the run registry key gets executed at system startup.
