@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: "Tatics or Kill chain of a Cyber Attack"
-date: 2022-02-06 13:11:40 -0400
+date: 2022-02-01 13:11:40 -0400
 categories: Malaware Kill-Chain-Tatics
 --- 
 
