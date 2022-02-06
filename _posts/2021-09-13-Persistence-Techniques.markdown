@@ -3,7 +3,9 @@ layout: post
 title: "Persistence Techniques"
 date: 2021-011-01 13:11:40 -0400
 categories: Malaware Persistence Techniques 
---- 
+---
+Malwares stay on the compromised computers, even when machine restarts or after credential changes or any other interruptions that could evade their access by various Persistence Techniques.
+
 Run Registry Key
 - Done by adding an entry to the run registry keys.
 - Executable is added to the run registry key gets executed at system startup.
@@ -60,7 +62,7 @@ AppInit_DLLs
 DLL Search Order Hijacking
 - DLL are loadeded in a specific order.
 - OS first checks if the DLL is already loaded in the memory else checks if DLL is in KnownDLLs (HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\KnownDLLs)then will load from System32 directory.
-- else DLL will be loaded from directory the application was launched|System32|System|current directory|PATH variables
+- else DLL will be loaded from directory the application was launched or |System32|System|current directory|PATH variables
 
 
 COM hijacking
@@ -88,3 +90,9 @@ Other Persistence methods
 - lsa-as-a-persistence  
 - Metasploit Persistence  
 - Tortoise SVN: Creates Tortoise SVN hook script   
+
+
+Reference 
+- Learning Malware Analysis by Monnappa K A
+- Mitre ATT&CK{https://attack.mitre.org/tactics/TA0003/}
+- Internet 
