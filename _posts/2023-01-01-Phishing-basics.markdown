@@ -1,70 +1,68 @@
 --- 
 layout: post
 title: "Phishing basics"
-date: 2023-01-01 13:11:40 -0400
+date: 2023-01-01 13:11:40-0400
 categories: Malaware Phishing Techniques 
----
-
-
+--- 
 Phishing
 
 Introduction
 
 Phishing attacks are a common form of cybercrime in which an attacker 
--sends an email, message or 
--website 
+- sends an email, message or 
+- website 
 to a victim that appears to be from a reputable or trustworthy source, but is actually designed to trick the victim into giving up sensitive information, such as passwords or credit card numbers. Phishing attacks are often used to spread malware, which is software that is designed to harm or exploit a computer system.
 
 Types of Phishing Attacks
 
--Email Phishing: This is the most common type of phishing attack, in which the attacker sends a fraudulent email that appears to be from a legitimate source, such as a bank or social media site, asking the victim to provide sensitive information.
+- Email Phishing: This is the most common type of phishing attack, in which the attacker sends a fraudulent email that appears to be from a legitimate source, such as a bank or social media site, asking the victim to provide sensitive information.
 
--Spear Phishing: This is a targeted phishing attack, in which the attacker sends a fraudulent email to a specific individual or group of individuals, usually with the goal of stealing sensitive information or gaining access to a system.
+- Spear Phishing: This is a targeted phishing attack, in which the attacker sends a fraudulent email to a specific individual or group of individuals, usually with the goal of stealing sensitive information or gaining access to a system.
 
--Clone Phishing: This is a type of phishing attack in which the attacker creates a fraudulent website that looks identical to a legitimate website, such as a banking site, and lures the victim into providing sensitive information.
+- Clone Phishing: This is a type of phishing attack in which the attacker creates a fraudulent website that looks identical to a legitimate website, such as a banking site, and lures the victim into providing sensitive information.
 
--Smishing: This is a phishing attack that is carried out via SMS or text message, in which the attacker sends a message that appears to be from a reputable source, such as a bank, asking the victim to provide sensitive information.
+- Smishing: This is a phishing attack that is carried out via SMS or text message, in which the attacker sends a message that appears to be from a reputable source, such as a bank, asking the victim to provide sensitive information.
 
 How Phishing Attacks Work
 
--Phishing attacks work by exploiting the trust and familiarity that individuals have with reputable sources, such as their bank or social media sites. The attacker will create a fraudulent email or website that looks identical to the legitimate source, and will often use social engineering techniques to lure the victim into providing sensitive information.
+- Phishing attacks work by exploiting the trust and familiarity that individuals have with reputable sources, such as their bank or social media sites. The attacker will create a fraudulent email or website that looks identical to the legitimate source, and will often use social engineering techniques to lure the victim into providing sensitive information.
 
 Attacks in Past
 
--The "Google Docs" Phishing Attack: In May 2017, a phishing attack targeted Gmail users with a fake Google Docs invitation that appeared to be from a trusted contact. When users clicked on the link, they were prompted to give permission to a fake Google Docs app, which gave attackers access to their email accounts. The attack affected over one million users before Google was able to shut it down.
--The "WannaCry" Ransomware Attack: In May 2017, the WannaCry ransomware attack infected hundreds of thousands of computers in over 150 countries. The attack was initiated through a phishing email that contained a malicious attachment. Once the attachment was opened, the ransomware was able to encrypt the user's files and demand payment in exchange for the decryption key.
--The "CEO Fraud" Phishing Attack: The CEO Fraud phishing attack is a type of business email compromise (BEC) attack that targets companies. In this attack, the attacker poses as a high-level executive, such as the CEO or CFO, and sends an email to an employee requesting that they transfer funds to a fraudulent account. This type of attack can be very convincing because the attacker often has access to internal information and uses social engineering tactics to convince the employee to comply.
--The "IRS" Phishing Attack: In January 2021, a phishing attack targeted taxpayers in the United States by sending fraudulent emails that appeared to be from the Internal Revenue Service (IRS). The emails claimed that the recipient was eligible for a tax refund and provided a link to a fake website where they could provide their personal and financial information. This type of attack is common during tax season and can lead to identity theft and financial loss
+- The "Google Docs" Phishing Attack: In May 2017, a phishing attack targeted Gmail users with a fake Google Docs invitation that appeared to be from a trusted contact. When users clicked on the link, they were prompted to give permission to a fake Google Docs app, which gave attackers access to their email accounts. The attack affected over one million users before Google was able to shut it down.
+- The "WannaCry" Ransomware Attack: In May 2017, the WannaCry ransomware attack infected hundreds of thousands of computers in over 150 countries. The attack was initiated through a phishing email that contained a malicious attachment. Once the attachment was opened, the ransomware was able to encrypt the user's files and demand payment in exchange for the decryption key.
+- The "CEO Fraud" Phishing Attack: The CEO Fraud phishing attack is a type of business email compromise (BEC) attack that targets companies. In this attack, the attacker poses as a high- level executive, such as the CEO or CFO, and sends an email to an employee requesting that they transfer funds to a fraudulent account. This type of attack can be very convincing because the attacker often has access to internal information and uses social engineering tactics to convince the employee to comply.
+- The "IRS" Phishing Attack: In January 2021, a phishing attack targeted taxpayers in the United States by sending fraudulent emails that appeared to be from the Internal Revenue Service (IRS). The emails claimed that the recipient was eligible for a tax refund and provided a link to a fake website where they could provide their personal and financial information. This type of attack is common during tax season and can lead to identity theft and financial loss
 
 Analysing Phishing HTMLs
 
--Source Code Analysis: Analyzing the source code of a phishing HTML can reveal important information, such as the domain name, server IP address, and the content of the webpage. It can also provide insights into the techniques used by the attacker to create the phishing page, such as obfuscation or encryption of the code.
+- Source Code Analysis: Analyzing the source code of a phishing HTML can reveal important information, such as the domain name, server IP address, and the content of the webpage. It can also provide insights into the techniques used by the attacker to create the phishing page, such as obfuscation or encryption of the code.
 
--Network Traffic Analysis: Analyzing the network traffic generated by a phishing HTML can reveal important information about the attacker and their infrastructure. It can also provide insight into the techniques used by the attacker to exfiltrate data from the victim, such as using HTTP or HTTPS protocols.
+- Network Traffic Analysis: Analyzing the network traffic generated by a phishing HTML can reveal important information about the attacker and their infrastructure. It can also provide insight into the techniques used by the attacker to exfiltrate data from the victim, such as using HTTP or HTTPS protocols.
 
--DOM Analysis: Analyzing the Document Object Model (DOM) of a phishing HTML can reveal important information about the page, such as the structure of the page, the use of forms, and the presence of hidden elements. This information can be used to identify the techniques used by the attacker to trick the victim into providing sensitive information.
+- DOM Analysis: Analyzing the Document Object Model (DOM) of a phishing HTML can reveal important information about the page, such as the structure of the page, the use of forms, and the presence of hidden elements. This information can be used to identify the techniques used by the attacker to trick the victim into providing sensitive information.
 
--Behavioral Analysis: Analyzing the behavior of a phishing HTML can reveal important information about the techniques used by the attacker to trick the victim into providing sensitive information. This can include analyzing the behavior of the page when certain buttons or links are clicked, or the behavior of the page when certain fields are filled out.
+- Behavioral Analysis: Analyzing the behavior of a phishing HTML can reveal important information about the techniques used by the attacker to trick the victim into providing sensitive information. This can include analyzing the behavior of the page when certain buttons or links are clicked, or the behavior of the page when certain fields are filled out.
 
 
 Analysing Phishing Attacks
 
--URL Analysis: Analyzing the URL of a phishing website can reveal important information, such as the domain name, IP address, and hosting provider. This information can be used to identify the attacker and block access to the fraudulent website
--Email Header Analysis: Analyzing the header of a phishing email can reveal important information, such as the sender's IP address, email client, and email server. This information can be used to identify the attacker and block access to their email server.
+- URL Analysis: Analyzing the URL of a phishing website can reveal important information, such as the domain name, IP address, and hosting provider. This information can be used to identify the attacker and block access to the fraudulent website
+- Email Header Analysis: Analyzing the header of a phishing email can reveal important information, such as the sender's IP address, email client, and email server. This information can be used to identify the attacker and block access to their email server.
 
 Online tools
 
--PhishTank: PhishTank is a community-driven database of known phishing sites. You can check a URL by visiting the PhishTank website (https://www.phishtank.com/) and entering the URL in the search box.
--VirusTotal: VirusTotal is a free online service that analyzes files and URLs for potential threats. You can check a URL by visiting the VirusTotal website (https://www.virustotal.com/gui/home/url) and entering the URL in the search box.
--URLVoid: URLVoid is a free online service that scans URLs for potential threats and provides a risk score. You can check a URL by visiting the URLVoid website (https://www.urlvoid.com/) and entering the URL in the search box.
+- PhishTank: PhishTank is a community- driven database of known phishing sites. You can check a URL by visiting the PhishTank website (https://www.phishtank.com/) and entering the URL in the search box.
+- VirusTotal: VirusTotal is a free online service that analyzes files and URLs for potential threats. You can check a URL by visiting the VirusTotal website (https://www.virustotal.com/gui/home/url) and entering the URL in the search box.
+- URLVoid: URLVoid is a free online service that scans URLs for potential threats and provides a risk score. You can check a URL by visiting the URLVoid website (https://www.urlvoid.com/) and entering the URL in the search box.
 
 Encoding schemas used in phishing HTMLs
 
--UTF-8: This is the most commonly used encoding schema and can represent any character in the Unicode standard. UTF-8 is used to support non-English characters and to ensure that characters are displayed correctly across different platforms and devices.
--Base64: This encoding schema converts binary data into ASCII text by representing each group of three bytes as four ASCII characters. Base64 encoding is often used to obfuscate the content of HTML pages or to hide malicious code.
--Hexadecimal: This encoding schema represents each byte of data as two hexadecimal digits (0-9 and A-F). Hexadecimal encoding is often used to represent special characters or to obfuscate the content of HTML pages.
--Unicode: This encoding schema represents characters using a unique numerical code. Unicode encoding is often used to support non-English characters and to ensure that characters are displayed correctly across different platforms and devices.
--JSFuck is an esoteric subset of JavaScript where only six characters are allowed in code: [,], (,),!, and +. The term is inspired from Brainfuck, an esoteric computer language that likewise employs a punctuation-only minimalist alphabet. JSFuck programmes can be executed in any web browser or engine that supports JavaScript.
+- UTF- 8: This is the most commonly used encoding schema and can represent any character in the Unicode standard. UTF- 8 is used to support non- English characters and to ensure that characters are displayed correctly across different platforms and devices.
+- Base64: This encoding schema converts binary data into ASCII text by representing each group of three bytes as four ASCII characters. Base64 encoding is often used to obfuscate the content of HTML pages or to hide malicious code.
+- Hexadecimal: This encoding schema represents each byte of data as two hexadecimal digits (0- 9 and A- F). Hexadecimal encoding is often used to represent special characters or to obfuscate the content of HTML pages.
+- Unicode: This encoding schema represents characters using a unique numerical code. Unicode encoding is often used to support non- English characters and to ensure that characters are displayed correctly across different platforms and devices.
+- JSFuck is an esoteric subset of JavaScript where only six characters are allowed in code: [,], (,),!, and +. The term is inspired from Brainfuck, an esoteric computer language that likewise employs a punctuation- only minimalist alphabet. JSFuck programmes can be executed in any web browser or engine that supports JavaScript.
 
 Decoding
 
@@ -73,16 +71,15 @@ Use decoder tool to decode the encoded content. For example, if the encoding sch
 
 CyberChef
 
--Open CyberChef in a web browser.
--Click on the "Recipe" dropdown menu and select the appropriate decoding recipe based on the encoding schema used in the phishing HTML. For example, select the "From Base64" recipe for Base64 encoding or the "From Hex" recipe for hexadecimal encoding.
--Copy the encoded content from the phishing HTML.
--Click on the "Input" box in CyberChef and paste the encoded content.
--CyberChef will automatically decode the content and display the decoded content in the "Output" box.
--Review the decoded content to identify any malicious code or content that may be hidden within the HTML page.
--If any malicious code or content is identified, take appropriate action to mitigate the threat, such as blocking the URL or alerting the relevant parties.
+- Open CyberChef in a web browser.
+- Click on the "Recipe" dropdown menu and select the appropriate decoding recipe based on the encoding schema used in the phishing HTML. For example, select the "From Base64" recipe for Base64 encoding or the "From Hex" recipe for hexadecimal encoding.
+- Copy the encoded content from the phishing HTML.
+- Click on the "Input" box in CyberChef and paste the encoded content.
+- CyberChef will automatically decode the content and display the decoded content in the "Output" box.
+- Review the decoded content to identify any malicious code or content that may be hidden within the HTML page.
+- If any malicious code or content is identified, take appropriate action to mitigate the threat, such as blocking the URL or alerting the relevant parties.
 
 Reference 
-
--(https://www.phishtank.com/)
--(https://www.virustotal.com/gui/home/url)
--(https://www.urlvoid.com)
+- (https://www.phishtank.com/)
+- (https://www.virustotal.com/gui/home/url)
+- (https://www.urlvoid.com)
