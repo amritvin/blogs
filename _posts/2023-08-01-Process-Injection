@@ -1,13 +1,12 @@
----  
+---
 layout: post
 title: "Process Injection"
 date: 2023-08-01 13:11:40-0400
-categories: Malaware Persistence Techniques 
---- 
-
+categories: Malware Persistence Techniques
+---
 Process Injection
 
-Its one of the most well - known ways malwares breaks firewalls, perform memory forensics, and slow down reverse engineers is by adding harmful code to legitimate processes and hiding while doing so.
+One of the most well-known ways malware breaks firewalls, perform memory forensics, and slows down reverse engineers is by adding harmful code to legitimate processes and hiding while doing so.
 
  - Processes are allowed to allocate, read, and write in another process's virtual memory, as well as create new threads, suspend threads, and change these threads' registers, including the instruction pointer (EIP/RIP).
  - Process injection is a technique that's implemented by malware authors so that they can inject code inside another process memory or a complete library (DLL) and execute that code (or the Entry Point of that DLL) inside the space of that process.
@@ -24,7 +23,7 @@ Objective
  
 DLL injection
  - The Windows operating system allows processes to load dynamic link libraries into other processes for security reasons, sandboxing, or even graphics.
-Windows - supported DLL injection
+Windows-supported DLL injection
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\AppInit_DLLs – 
 This registry entry was one of the most misused registry entries by malware to inject DLL code into other processes and maintain persistence. The libraries included in this path are loaded together with every process that loads user32.dll
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppCertDlls
